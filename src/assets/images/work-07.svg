@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400" width="100%" height="100%">
+  <rect width="1400" height="1400" fill="#EFECE5"/>
+  <rect x="24" y="24" width="1352" height="1352" fill="none" stroke="#1C1C1A" stroke-opacity="0.1" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1320" height="1320" fill="none" stroke="#1C1C1A" stroke-opacity="0.05" stroke-width="1"/>
+  
+  <!-- Corner registration marks -->
+  <path d="M60 80 H100 M80 60 V100" stroke="#1C1C1A" stroke-opacity="0.25" stroke-width="1"/>
+  <path d="M1300 80 H1340 M1320 60 V100" stroke="#1C1C1A" stroke-opacity="0.25" stroke-width="1"/>
+  <path d="M60 1320 H100 M80 1300 V1340" stroke="#1C1C1A" stroke-opacity="0.25" stroke-width="1"/>
+  <path d="M1300 1320 H1340 M1320 1300 V1340" stroke="#1C1C1A" stroke-opacity="0.25" stroke-width="1"/>
+  
+  <!-- Subtle center cross -->
+  <circle cx="700" cy="650" r="48" fill="none" stroke="#1C1C1A" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="700" y1="620" x2="700" y2="680" stroke="#1C1C1A" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="670" y1="650" x2="730" y2="650" stroke="#1C1C1A" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Typography -->
+  <text x="700" y="760" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" letter-spacing="0.25em" fill="#1C1C1A" font-weight="400">REYES PORTAS</text>
+  <text x="700" y="805" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" letter-spacing="0.28em" fill="#5C5A54" text-transform="uppercase">ARTWORK PLACEHOLDER · WORK 07</text>
+  <text x="700" y="835" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, monospace" font-size="11" letter-spacing="0.18em" fill="#8F8C84">1 : 1 · SQUARE FORMAT</text>
+</svg>

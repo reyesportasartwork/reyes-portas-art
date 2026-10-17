@@ -1,0 +1,6 @@
+{
+  "name": "Reyes Portas — Artist",
+  "description": "Contemporary visual artist based in Spain. Painting between the visible and the visionary, exploring the space between figuration and abstraction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

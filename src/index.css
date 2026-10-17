@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-canvas: #FBF9F5;
+  --color-canvas-subtle: #F4F0EA;
+  --color-canvas-card: #FFFFFF;
+  --color-gold: #C5A059;
+  --color-gold-light: #DFC07D;
+  --color-gold-dark: #A6833E;
+  --color-ink-primary: #1C1C1A;
+  --color-ink-secondary: #5C5A54;
+  --color-ink-muted: #8F8C84;
+}
+
+html, body, #root {
+  min-height: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  background-color: #FBF9F5;
+  color: #1C1C1A;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle image load blur-up & protective art frame styling */
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Art label typographic rhythm */
+.art-caption {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+@keyframes museumShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    #EFECE5 0%,
+    #F6F4EE 40%,
+    #ECE8E0 60%,
+    #EFECE5 100%
+  );
+  background-size: 200% 100%;
+  animation: museumShimmer 2.4s ease-in-out infinite;
+}
